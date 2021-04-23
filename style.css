@@ -1,0 +1,113 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@1,100&display=swap');
+*,*::after,::before{
+    box-sizing: border-box;
+}
+body {
+ font-family: 'Public Sans', sans-serif;
+}
+.animation {
+    animation: flop 2s forwards;
+    }
+    @keyframes flop {
+    from{
+    opacity: 0;
+    transform: translateY(-2em);
+    }
+    to {
+    opacity: 1;
+    transform: translateY(0);
+    }
+}   
+button#but,#go{
+    background-color: orangered;
+    border-radius: 3em;
+    outline: none;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    padding: .8em 1.8em;
+    border: unset;
+}
+.relative{
+    position: absolute;
+    z-index: -1;
+}
+.absolute{
+    z-index: 1;
+}
+h1{
+    font-family:sans-serif ;
+    font-weight: bolder;
+    font-size: 9.5rem;
+    text-align: center;
+}
+h5{
+    font-family: "public sans", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+p{
+    background-color: rgb(235, 169, 145);
+    position: relative;
+    text-align: center;
+    font-size: 1rem;
+}
+.span{
+    z-index: 1;
+    background-color: orangered;
+    border-radius: 3em;
+    padding: .1em 1.1em;
+    position: absolute;
+    left: .25em;
+    font-weight: bold;
+}
+#size{
+    width: 30%;
+    height: 20;
+    margin: 0 auto;
+    display: block;
+}
+h4,.text,.social{
+    text-align: center;
+}
+.orange{
+    background-color: orangered;
+    color: #fff;
+}
+#btu{
+    background-color: #fff;
+    border-radius: 3em;
+    outline: none;
+    color:orangered;
+    text-transform: capitalize;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    padding: .8em 1.8em;
+    border: unset;
+}
+.ordre{
+    background-color: black;
+}
+#tub{
+    outline: none;
+    border: unset;
+    padding: .5em 1.4em;
+    border-radius: 3rem;
+}
+.flex{
+    display: flex;
+    color: #fff;
+    line-height: 2em;
+}
+.social{
+    word-spacing: 1.8rem;
+    margin: 0 auto;
+}
+.white{
+    background-color: #fff;
+}
+  
